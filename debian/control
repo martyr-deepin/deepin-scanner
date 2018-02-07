@@ -1,0 +1,15 @@
+Source: deepin-scanner
+Section: graphics
+Priority: optional
+Maintainer: Deepin Sysdev <sysdev@linuxdeepin.com>
+Homepage: http://www.deepin.org
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9~), pkg-config, qt5-qmake, qttools5-dev-tools,
+ libsane-dev, libdtkwidget-dev
+
+Package: deepin-scanner
+Architecture: any
+Depends: ${misc:Depends},
+ ${shlibs:Depends}
+Description: deepin scan tool
+ deepin scanner is a graphics tool to fetch image from scanner.
